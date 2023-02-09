@@ -46,7 +46,7 @@
 		{
 			"id": 3,
 			"name": "Acılı Çiken Ranç",
-			"img": "spicy-chicken-ranch.png",
+			"img": "Spicy-chicken-ranch.png",
 			"size": {
 				"xs": "mini, 15sm",
 				"sm": "kiçik, 23sm",
@@ -112,7 +112,7 @@
 		{
 			"id": 6,
 			"name": "Cheddar Dabl Burger",
-			"img": "cheddar-dabl-burger.png",
+			"img": "Cheddar-Dabl-Burger.png",
 			"size": {
 				"sm": "kiçik, 23sm",
 				"md": "orta, 30sm",
