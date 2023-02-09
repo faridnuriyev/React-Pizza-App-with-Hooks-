@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-Pizza-App-with-Hooks-/static/css/main.a6267f35.css",
+    "main.js": "/React-Pizza-App-with-Hooks-/static/js/main.1fb7f50c.js",
+    "static/media/kevin.jpeg": "/React-Pizza-App-with-Hooks-/static/media/kevin.a0e68de9f0029a1493b3.jpeg",
+    "index.html": "/React-Pizza-App-with-Hooks-/index.html",
+    "main.a6267f35.css.map": "/React-Pizza-App-with-Hooks-/static/css/main.a6267f35.css.map",
+    "main.1fb7f50c.js.map": "/React-Pizza-App-with-Hooks-/static/js/main.1fb7f50c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6267f35.css",
+    "static/js/main.1fb7f50c.js"
+  ]
+}

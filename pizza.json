@@ -1,0 +1,191 @@
+{
+	"data": [{
+			"id": 1,
+			"name": "Qril Çiken Parmezan",
+			"img": "Grill-chicken-parmesan.png",
+			"size": {
+				"xs": "mini, 15sm",
+				"sm": "kiçik, 23sm",
+				"md": "orta, 30sm",
+				"lg": "böyük, 35sm"
+			},
+			"price": {
+				"xs": 5.5,
+				"sm": 11,
+				"md": 17,
+				"lg": 21
+			},
+			"desc": "Sarımsaqlı Parmezan sousu, Qril Toyuğu, Vetçina, Pomidor, Mozzarella Pendiri, Halapeno Bibəri",
+			"chick": true,
+			"meat": true,
+			"vegan": false,
+			"spicy": true
+		},
+		{
+			"id": 2,
+			"name": "Amerikan Hot",
+			"img": "american-hot.png",
+			"size": {
+				"xs": "mini, 15sm",
+				"sm": "kiçik, 23sm",
+				"md": "orta, 30sm",
+				"lg": "böyük, 35sm"
+			},
+			"price": {
+				"xs": 5.5,
+				"sm": 9,
+				"md": 14,
+				"lg": 19
+			},
+			"desc": "Pizza Sous, Mozzarella pendiri, Pepperoni və Halapenyo Bibəri",
+			"chick": false,
+			"meat": false,
+			"vegan": true,
+			"spicy": true
+		},
+		{
+			"id": 3,
+			"name": "Acılı Çiken Ranç",
+			"img": "spicy-chicken-ranch.png",
+			"size": {
+				"xs": "mini, 15sm",
+				"sm": "kiçik, 23sm",
+				"md": "orta, 30sm",
+				"lg": "böyük, 35sm"
+			},
+			"price": {
+				"xs": 5.5,
+				"sm": 11,
+				"md": 16,
+				"lg": 22
+			},
+			"desc": "Ranch Sousu, Toyuq Əti, Göbələklər,  Halapenyo Bibəri, Təzə Doğranmış Pomidorlar və Mozzarella Pendiri",
+			"chick": true,
+			"meat": false,
+			"vegan": false,
+			"spicy": true
+		},
+		{
+			"id": 4,
+			"name": "Çiken Ranç",
+			"img": "chicken_ranch.jpeg",
+			"size": {
+				"xs": "mini, 15sm",
+				"sm": "kiçik, 23sm",
+				"md": "orta, 30sm",
+				"lg": "böyük, 35sm"
+			},
+			"price": {
+				"xs": 5.5,
+				"sm": 10,
+				"md": 16,
+				"lg": 21
+			},
+			"desc": "Qril Toyuq, Pomidor, Ranç Sousu, Mozzarella Pendiri",
+			"chick": true,
+			"meat": false,
+			"vegan": false,
+			"spicy": false
+		},
+		{
+			"id": 5,
+			"name": "Acılı Vegetarian",
+			"img": "vegetarian-acili.png",
+			"size": {
+				"xs": "mini, 15sm",
+				"sm": "kiçik, 23sm",
+				"md": "orta, 30sm",
+				"lg": "böyük, 35sm"
+			},
+			"price": {
+				"xs": 5.5,
+				"sm": 9,
+				"md": 13,
+				"lg": 18
+			},
+			"desc": "Halapenyo Bibəri, Pomidor, Göbələk, Qara Zeytun, Yaşıl Bibər və Mozzarella Pendiri",
+			"chick": false,
+			"meat": false,
+			"vegan": true,
+			"spicy": true
+		},
+		{
+			"id": 6,
+			"name": "Cheddar Dabl Burger",
+			"img": "cheddar-dabl-burger.png",
+			"size": {
+				"sm": "kiçik, 23sm",
+				"md": "orta, 30sm",
+				"lg": "böyük, 35sm"
+			},
+			"price": {
+				"sm": 12,
+				"md": 20,
+				"lg": 25
+			},
+			"desc": "1000 ada sousu, Mal əti, Pomidor, Mozzarella, Cheddar",
+			"chick": false,
+			"meat": true,
+			"vegan": false,
+			"spicy": true
+		},
+		{
+			"id": 7,
+			"name": "Papa Miks",
+			"img": "papamiks-sayt.png",
+			"size": {
+				"lg": "böyük, 35sm"
+			},
+			"price": {
+				"lg": 20
+			},
+			"desc": "Çiken BBQ, Hot&Spaysi, Marqarita, Klassik Pepperoni",
+			"chick": true,
+			"meat": false,
+			"vegan": false,
+			"spicy": true
+		},
+		{
+			"id": 8,
+			"name": "Çiken Barbekyu",
+			"img": "chicken_barbekyu.jpeg",
+			"size": {
+				"xs": "mini, 15sm",
+				"sm": "kiçik, 23sm",
+				"md": "orta, 30sm",
+				"lg": "böyük, 35sm"
+			},
+			"price": {
+				"xs": 5.5,
+				"sm": 10,
+				"md": 16,
+				"lg": 22
+			},
+			"desc": "Qril Toyuq, Göbələk, Barbekyu Sousu, Mozzarella Pendiri",
+			"chick": true,
+			"meat": false,
+			"vegan": false,
+			"spicy": false
+		},
+		{
+			"id": 9,
+			"name": "Cheddar Çiken Club",
+			"img": "Cheddar-Çiken-Club.png",
+			"size": {
+				"sm": "kiçik, 23sm",
+				"md": "orta, 30sm",
+				"lg": "böyük, 35sm"
+			},
+			"price": {
+				"sm": 10,
+				"md": 16,
+				"lg": 21
+			},
+			"desc": "Qril toyuğu, Pomidor, Vetçina, Mozzarella, Cheddar, Ranç sousu",
+			"chick": true,
+			"meat": false,
+			"vegan": false,
+			"spicy": false
+		}
+	]
+}
