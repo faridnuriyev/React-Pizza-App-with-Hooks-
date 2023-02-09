@@ -1,0 +1,6 @@
+header button { font-size: 1.5rem!important; }
+.badge { font-size: .8rem!important; }
+header{
+    background: url(../../public/assets/img/kevin.jpeg) center/cover;
+    background-position: 50% 43%;    
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+.simple__card {
+  display: flex;
+  flex-direction: column; 
+}
+.simple__text {
+  flex: 1;  
+}
+.simple__button {
+  margin-top: 15px;
+}
+.magazine_card{
+  margin: 0 auto;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border: 1px solid;
+  box-shadow: 0 0 10px 4px;
+  transition: .6s;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-family: 'Anton', sans-serif;
+}
+.shadow{
+  position: absolute;
+  top: 0%;left: 0%;
+  width: 100%;
+  height: 100%;
+  transition: .6s;
+}
+
+.magazine_card img{
+  position: relative;
+  filter: contrast(150%);
+  transition: .6s;
+  
+}
+.magazine_title{
+  position: absolute;
+  z-index: 10;
+  top: 75%;
+  left: 0;
+  color: white;
+  font-size: 26pt;
+  width: 100%;
+  height: 20%;
+  display: flex;justify-content: center; align-items: center;
+  background: rgba(0,0,0,.4);
+  transition: .6s;
+  letter-spacing: 4px;
+}
+.magazine_desc{
+  position: absolute;
+  z-index: 10;
+  top: 80%;
+  width: 100%;
+  height: 20%;
+  color: white;
+  font-size: 16pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .6s;
+  transition-delay: 0s;
+  opacity: 0;
+}
+
+.splitter{
+  position: absolute;
+  top: 398px; left: 0%;
+  width: 100%;
+  height: 0;
+  background: #fff;
+  transition: .6s;
+  opacity: 0;
+}
+.splitter::before, .splitter::after{
+  position: absolute;
+  z-index: 11;
+  top: 0;left: 0;
+  content: ' ';
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  transition: .6s;
+  transition-delay: 0s;
+}
+.magazine_card:hover img{
+  transform: scale(1.2);
+}
+.magazine_card:hover .shadow{
+  box-shadow: inset 0 0 10px 4px;
+  background: rgba(0,0,0,.4);
+
+  transform: scale(.85);
+}
+.magazine_card:hover .magazine_title{
+  transform: translateY(-310%);
+  background: transparent;
+}
+.magazine_card:hover .magazine_desc{
+  transform: translateY(-120%);
+  opacity: 1;
+  transition-delay: .6s;
+}
+.magazine_card:hover .splitter{
+  transform: translateY(-12em);
+  left: 10%;
+  width: 80%;
+  opacity: 1;
+}
+
+.magazine_card:hover .splitter::before{
+  transform: rotate(-20deg);
+  transition-delay: .6s;
+  opacity: .6;
+}
+.magazine_card:hover .splitter::after{
+  transform: rotate(20deg);
+  transition-delay: .6s;
+  opacity: .6;
+}
+@keyframes rotate {
+  0%{
+    
+  }
+  100%{
+    transform: rotate(45deg);
+  }
+}
